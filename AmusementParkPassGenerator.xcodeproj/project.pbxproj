@@ -14,7 +14,6 @@
 		42CEEB2A1F2CE2F000C21C5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CEEB281F2CE2F000C21C5F /* LaunchScreen.storyboard */; };
 		42CEEB431F2CE61C00C21C5F /* AmusementParkPassGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CEEB421F2CE61C00C21C5F /* AmusementParkPassGeneratorTests.swift */; };
 		42CEEB511F2CE65E00C21C5F /* AmusementParkPassGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CEEB501F2CE65E00C21C5F /* AmusementParkPassGeneratorUITests.swift */; };
-		42CEEB591F2CE79C00C21C5F /* Entrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CEEB581F2CE79C00C21C5F /* Entrant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,6 @@
 		42CEEB4E1F2CE65E00C21C5F /* AmusementParkPassGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmusementParkPassGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CEEB501F2CE65E00C21C5F /* AmusementParkPassGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmusementParkPassGeneratorUITests.swift; sourceTree = "<group>"; };
 		42CEEB521F2CE65E00C21C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42CEEB581F2CE79C00C21C5F /* Entrant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entrant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +99,6 @@
 			children = (
 				42CEEB1F1F2CE2F000C21C5F /* AppDelegate.swift */,
 				42CEEB211F2CE2F000C21C5F /* ViewController.swift */,
-				42CEEB581F2CE79C00C21C5F /* Entrant.swift */,
 				42CEEB231F2CE2F000C21C5F /* Main.storyboard */,
 				42CEEB261F2CE2F000C21C5F /* Assets.xcassets */,
 				42CEEB281F2CE2F000C21C5F /* LaunchScreen.storyboard */,
@@ -265,7 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42CEEB591F2CE79C00C21C5F /* Entrant.swift in Sources */,
 				42CEEB221F2CE2F000C21C5F /* ViewController.swift in Sources */,
 				42CEEB201F2CE2F000C21C5F /* AppDelegate.swift in Sources */,
 			);
