@@ -11,7 +11,7 @@ import Foundation
 typealias percent = Int
 
 protocol Access {
-    // Empty protocol to create an overall Access Type
+    // Empty protocol to create an overall Access Type.
 }
 
 enum AreaAccess: Access {
