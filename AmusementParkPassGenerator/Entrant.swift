@@ -28,7 +28,7 @@ protocol GuestEntrant: Entrant {
 }
 
 protocol EntrantType {
-    // Empty protocol to create an overall Entrant Type
+    // Empty protocol to create an overall Entrant Type.
 }
 
 enum EmployeeType: EntrantType {
