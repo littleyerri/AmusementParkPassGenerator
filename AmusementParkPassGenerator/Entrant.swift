@@ -9,27 +9,39 @@
 import Foundation
 
 protocol Entrant {
+    var area: [AreaAccess] { get }
+    var ride: [RideAccess] { get }
     
+    func check(for access: Access)
 }
 
 protocol EmployeeEntrant: Entrant {
-    
+    var type:     EmployeeType { get }
+    var discount: [DiscountAccess] { get }
+//    var profile: Profile { get set }
 }
 
 protocol GuestEntrant: Entrant {
-    
+    var type:     GuestType { get }
+    var discount: [DiscountAccess] { get }
+//    var profile: Profile? { get set }
 }
 
 protocol EntrantType {
-    
+    // Empty protocol to create an overall Entrant Type
 }
 
 enum EmployeeType: EntrantType {
-    
+    case foodService
+    case rideService
+    case maintenance
+    case manager
 }
 
 enum GuestType: EntrantType {
-    
+    case classic
+    case vip
+    case freeChild
 }
 
 
