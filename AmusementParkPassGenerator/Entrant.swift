@@ -18,13 +18,13 @@ protocol Entrant {
 protocol EmployeeEntrant: Entrant {
     var type:     EmployeeType { get }
     var discount: [DiscountAccess] { get }
-//    var profile: Profile { get set }
+    var profile: Profile { get set }
 }
 
 protocol GuestEntrant: Entrant {
     var type:     GuestType { get }
     var discount: [DiscountAccess] { get }
-//    var profile: Profile? { get set }
+    var profile: Profile? { get set }
 }
 
 protocol EntrantType {

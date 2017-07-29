@@ -16,6 +16,7 @@
 		42CEEB511F2CE65E00C21C5F /* AmusementParkPassGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CEEB501F2CE65E00C21C5F /* AmusementParkPassGeneratorUITests.swift */; };
 		42CEEB5B1F2CE92F00C21C5F /* Entrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CEEB5A1F2CE92F00C21C5F /* Entrant.swift */; };
 		42CEEB5D1F2CE9AD00C21C5F /* Access.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CEEB5C1F2CE9AD00C21C5F /* Access.swift */; };
+		42CEEB5F1F2CF13B00C21C5F /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CEEB5E1F2CF13B00C21C5F /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		42CEEB521F2CE65E00C21C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42CEEB5A1F2CE92F00C21C5F /* Entrant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entrant.swift; sourceTree = "<group>"; };
 		42CEEB5C1F2CE9AD00C21C5F /* Access.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Access.swift; sourceTree = "<group>"; };
+		42CEEB5E1F2CF13B00C21C5F /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				42CEEB211F2CE2F000C21C5F /* ViewController.swift */,
 				42CEEB5C1F2CE9AD00C21C5F /* Access.swift */,
 				42CEEB5A1F2CE92F00C21C5F /* Entrant.swift */,
+				42CEEB5E1F2CF13B00C21C5F /* Profile.swift */,
 				42CEEB231F2CE2F000C21C5F /* Main.storyboard */,
 				42CEEB261F2CE2F000C21C5F /* Assets.xcassets */,
 				42CEEB281F2CE2F000C21C5F /* LaunchScreen.storyboard */,
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42CEEB5B1F2CE92F00C21C5F /* Entrant.swift in Sources */,
+				42CEEB5F1F2CF13B00C21C5F /* Profile.swift in Sources */,
 				42CEEB5D1F2CE9AD00C21C5F /* Access.swift in Sources */,
 				42CEEB221F2CE2F000C21C5F /* ViewController.swift in Sources */,
 				42CEEB201F2CE2F000C21C5F /* AppDelegate.swift in Sources */,
