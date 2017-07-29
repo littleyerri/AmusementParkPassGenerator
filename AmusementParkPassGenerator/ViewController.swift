@@ -66,7 +66,7 @@ class ViewController: UIViewController {
         } catch ProfileError.Invalid(let data, let type) {
             print("Error, \(type) was missing \(data).")
         } catch {
-            print("Unknown error occured.")
+            print("Unknown error has occured.")
         }
     }
 
