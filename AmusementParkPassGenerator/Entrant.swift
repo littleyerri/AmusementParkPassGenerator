@@ -9,21 +9,21 @@
 import Foundation
 
 protocol Entrant {
-    var area: [AreaAccess] { get }
-    var ride: [RideAccess] { get }
+    var areaAccess: [AreaAccess] { get }
+    var rideAccess: [RideAccess] { get }
     
     func check(for access: Access)
 }
 
 protocol EmployeeEntrant: Entrant {
-    var type:     EmployeeType { get }
-    var discount: [DiscountAccess] { get }
+    var type: EmployeeType { get }
+    var discountAccess: [DiscountAccess] { get }
     var profile: Profile { get set }
 }
 
 protocol GuestEntrant: Entrant {
-    var type:     GuestType { get }
-    var discount: [DiscountAccess] { get }
+    var type: GuestType { get }
+    var discountAccess: [DiscountAccess]? { get }
     var profile: Profile? { get set }
 }
 
